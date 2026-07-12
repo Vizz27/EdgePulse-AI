@@ -1,14 +1,13 @@
-1. Project Title
 # EdgePulse
-
 AI-Powered Edge Digital Twin for Semiconductor Manufacturing
-2. Project Overview
+
+Project Overview
 Semiconductor manufacturing faces costly downtime.
 Traditional SPC/APC workflows depend on cloud communication.
 EdgePulse moves AI inference to the edge using LangGraph and Qualcomm AI Hub.
 Human operators remain in control through a Human-in-the-Loop workflow.
 
-3. Problem Statement
+Problem Statement
 Modern manufacturing is rapidly transitioning to hybrid cloud architectures to maintain global
 visibility and evaluate Overall Equipment Effectiveness (DEE). However, this creates a major
 bottleneck: network latency. In high-speed, precision manufacturing, relying on centralized cloud
@@ -25,7 +24,7 @@ Process variations occur across Lithography, Etching, CVD, CMP, and Inspection.
 Cloud-based analysis introduces latency.
 Delayed corrective actions reduce yield and increase downtime.
 
-4. Proposed Solution
+Proposed Solution
 Agentic Edge Ecosystem
 To bridge this gap, we are building a fully localized, Agentic Edge Ecosystem that integrates
 hardware and multi-agent Al to achieve immediate anomaly detection and cross-system
@@ -40,7 +39,7 @@ supervisor is away from the physical machine terminal, the system automatically 
 warning, pushing rich-text alert notifications containing reasoning and an "Approve Execution"
 button to mobile phones over local networks to ensure critical oversight is never missed
 
-5. System Architecture
+System Architecture
 Semiconductor Manufacturing
 
 Lithography
@@ -88,7 +87,7 @@ Arduino UNO Q
       │
 Recipe Recommendation
 
-6. Technology Stack
+Technology Stack
 
 Layer	Technology
 Digital Twin	Python
@@ -101,7 +100,7 @@ Mobile	Android Studio
 Hardware	Arduino UNO Q
 Dataset	10,000 simulated records
 
-7. Multi-Agent Workflow
+Multi-Agent Workflow
 
 Sensor Agent
 
@@ -121,7 +120,7 @@ Recommendation Agent
 
 Notification Agent
 
-8. Digital Twin
+Digital Twin
 Explain:
 
 Recipe Manager
@@ -136,19 +135,19 @@ Fault Injection
 
 JSON Streaming
 
-9. Qualcomm AI Hub Integration
+Qualcomm AI Hub Integration
 -oss is used
 
-10. APC Dashboard
+APC Dashboard
 
 
-11. Android Human-in-the-Loop
+Android Human-in-the-Loop
 
 
-12. Arduino Prototype
+Arduino Prototype
 
 
-13. Demo Workflow
+Demo Workflow
 Wafer
 ↓
 
